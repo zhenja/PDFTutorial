@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C46D02D01E9CFF7C00BF34D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46D02CF1E9CFF7C00BF34D8 /* AppDelegate.swift */; };
+		C46D02D21E9CFF7C00BF34D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46D02D11E9CFF7C00BF34D8 /* ViewController.swift */; };
+		C46D02D51E9CFF7C00BF34D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C46D02D31E9CFF7C00BF34D8 /* Main.storyboard */; };
+		C46D02D71E9CFF7C00BF34D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C46D02D61E9CFF7C00BF34D8 /* Assets.xcassets */; };
+		C46D02DA1E9CFF7C00BF34D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C46D02D81E9CFF7C00BF34D8 /* LaunchScreen.storyboard */; };
+		C46D02E21E9D000000BF34D8 /* PDFGeneratorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46D02E11E9D000000BF34D8 /* PDFGeneratorService.swift */; };
+		C46D02E41E9DFDC300BF34D8 /* urkunde.txt in Resources */ = {isa = PBXBuildFile; fileRef = C46D02E31E9DFDC300BF34D8 /* urkunde.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C46D02CC1E9CFF7C00BF34D8 /* PDFTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C46D02CF1E9CFF7C00BF34D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C46D02D11E9CFF7C00BF34D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C46D02D41E9CFF7C00BF34D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C46D02D61E9CFF7C00BF34D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C46D02D91E9CFF7C00BF34D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C46D02DB1E9CFF7C00BF34D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C46D02E11E9D000000BF34D8 /* PDFGeneratorService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFGeneratorService.swift; sourceTree = "<group>"; };
+		C46D02E31E9DFDC300BF34D8 /* urkunde.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = urkunde.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C46D02C91E9CFF7C00BF34D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C46D02C31E9CFF7C00BF34D8 = {
+			isa = PBXGroup;
+			children = (
+				C46D02CE1E9CFF7C00BF34D8 /* PDFTutorial */,
+				C46D02CD1E9CFF7C00BF34D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C46D02CD1E9CFF7C00BF34D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C46D02CC1E9CFF7C00BF34D8 /* PDFTutorial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C46D02CE1E9CFF7C00BF34D8 /* PDFTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				C46D02CF1E9CFF7C00BF34D8 /* AppDelegate.swift */,
+				C46D02D11E9CFF7C00BF34D8 /* ViewController.swift */,
+				C46D02E11E9D000000BF34D8 /* PDFGeneratorService.swift */,
+				C46D02D31E9CFF7C00BF34D8 /* Main.storyboard */,
+				C46D02D61E9CFF7C00BF34D8 /* Assets.xcassets */,
+				C46D02D81E9CFF7C00BF34D8 /* LaunchScreen.storyboard */,
+				C46D02DB1E9CFF7C00BF34D8 /* Info.plist */,
+				C46D02E31E9DFDC300BF34D8 /* urkunde.txt */,
+			);
+			path = PDFTutorial;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C46D02CB1E9CFF7C00BF34D8 /* PDFTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C46D02DE1E9CFF7C00BF34D8 /* Build configuration list for PBXNativeTarget "PDFTutorial" */;
+			buildPhases = (
+				C46D02C81E9CFF7C00BF34D8 /* Sources */,
+				C46D02C91E9CFF7C00BF34D8 /* Frameworks */,
+				C46D02CA1E9CFF7C00BF34D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDFTutorial;
+			productName = PDFTutorial;
+			productReference = C46D02CC1E9CFF7C00BF34D8 /* PDFTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C46D02C41E9CFF7C00BF34D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "ilume informatik ag";
+				TargetAttributes = {
+					C46D02CB1E9CFF7C00BF34D8 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = J6W329EHA2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C46D02C71E9CFF7C00BF34D8 /* Build configuration list for PBXProject "PDFTutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C46D02C31E9CFF7C00BF34D8;
+			productRefGroup = C46D02CD1E9CFF7C00BF34D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C46D02CB1E9CFF7C00BF34D8 /* PDFTutorial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C46D02CA1E9CFF7C00BF34D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C46D02DA1E9CFF7C00BF34D8 /* LaunchScreen.storyboard in Resources */,
+				C46D02D71E9CFF7C00BF34D8 /* Assets.xcassets in Resources */,
+				C46D02D51E9CFF7C00BF34D8 /* Main.storyboard in Resources */,
+				C46D02E41E9DFDC300BF34D8 /* urkunde.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C46D02C81E9CFF7C00BF34D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C46D02D21E9CFF7C00BF34D8 /* ViewController.swift in Sources */,
+				C46D02E21E9D000000BF34D8 /* PDFGeneratorService.swift in Sources */,
+				C46D02D01E9CFF7C00BF34D8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C46D02D31E9CFF7C00BF34D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C46D02D41E9CFF7C00BF34D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C46D02D81E9CFF7C00BF34D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C46D02D91E9CFF7C00BF34D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C46D02DC1E9CFF7C00BF34D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C46D02DD1E9CFF7C00BF34D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C46D02DF1E9CFF7C00BF34D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J6W329EHA2;
+				INFOPLIST_FILE = PDFTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.ilume.PDFTutorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C46D02E01E9CFF7C00BF34D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J6W329EHA2;
+				INFOPLIST_FILE = PDFTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.ilume.PDFTutorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C46D02C71E9CFF7C00BF34D8 /* Build configuration list for PBXProject "PDFTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C46D02DC1E9CFF7C00BF34D8 /* Debug */,
+				C46D02DD1E9CFF7C00BF34D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C46D02DE1E9CFF7C00BF34D8 /* Build configuration list for PBXNativeTarget "PDFTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C46D02DF1E9CFF7C00BF34D8 /* Debug */,
+				C46D02E01E9CFF7C00BF34D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C46D02C41E9CFF7C00BF34D8 /* Project object */;
+}

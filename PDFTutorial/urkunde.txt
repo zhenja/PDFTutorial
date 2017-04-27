@@ -1,0 +1,6 @@
+titel->Urkunde
+daten->Eugen Ackermann
+paragraph->hat erfolgreich am Kurs
+daten->Swift PDF Erzeugung
+paragraph->teilgenommen.
+datum->
